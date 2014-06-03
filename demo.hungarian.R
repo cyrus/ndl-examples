@@ -98,10 +98,12 @@ CueActivityComparison("labda",c("piros","fekete","barna","lila","labda","lambda"
 #### Most active outcomes
 
 topNactiveOutcomes("labda",wm=w)
+topNactiveOutcomes("labdarúgó",wm=w)
 topNactiveOutcomes("piros",wm=w)
 
 topNactiveCues("labda",wm=w)
 topNactiveCues("piros",wm=w)
+topNactiveCues("poss",wm=w)
 
 #### Self-activations
 stims = c("piros","fekete","barna","lila","labda","lambda","bűnökröl","bűnöktöl")
